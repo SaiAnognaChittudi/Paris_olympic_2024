@@ -1,0 +1,9 @@
+{
+	"name": "sa-paris-olympic-2024df",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "93501c24-fab6-475b-8935-023fe9f2d764",
+		"tenantId": "5217e0e7-539d-4563-b1bf-7c6dcf074f91"
+	}
+}
