@@ -11,10 +11,6 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage1'"
 		},
-		"athletesHTTP_password": {
-			"type": "secureString",
-			"metadata": "Secure string for 'password' of 'athletesHTTP'"
-		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://parisolympic2024dev001.dfs.core.windows.net/"
@@ -22,10 +18,6 @@
 		"athletesHTTP_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://raw.githubusercontent.com/SaiAnognaChittudi/Paris_olympic_2024/refs/heads/main/data/athletes.csv"
-		},
-		"athletesHTTP_properties_typeProperties_userName": {
-			"type": "string",
-			"defaultValue": "SaiAnognaChittudi"
 		},
 		"containerUri": {
 			"type": "string",
@@ -57,17 +49,11 @@
 					"AzureDataLakeStorage1_accountKey": {
 						"value": "[parameters('AzureDataLakeStorage1_accountKey')]"
 					},
-					"athletesHTTP_password": {
-						"value": "[parameters('athletesHTTP_password')]"
-					},
 					"AzureDataLakeStorage1_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
 					},
 					"athletesHTTP_properties_typeProperties_url": {
 						"value": "[parameters('athletesHTTP_properties_typeProperties_url')]"
-					},
-					"athletesHTTP_properties_typeProperties_userName": {
-						"value": "[parameters('athletesHTTP_properties_typeProperties_userName')]"
 					}
 				}
 			},

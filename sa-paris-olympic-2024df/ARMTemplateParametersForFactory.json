@@ -8,17 +8,11 @@
 		"AzureDataLakeStorage1_accountKey": {
 			"value": ""
 		},
-		"athletesHTTP_password": {
-			"value": ""
-		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://parisolympic2024dev001.dfs.core.windows.net/"
 		},
 		"athletesHTTP_properties_typeProperties_url": {
 			"value": "https://raw.githubusercontent.com/SaiAnognaChittudi/Paris_olympic_2024/refs/heads/main/data/athletes.csv"
-		},
-		"athletesHTTP_properties_typeProperties_userName": {
-			"value": "SaiAnognaChittudi"
 		}
 	}
 }
